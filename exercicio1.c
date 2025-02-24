@@ -33,8 +33,23 @@ int main()
     float c= (fare-32)*5/9;
     printf("A temperatura em centigrados e: %f\n", c);*/
 
-    
+    /*Exercicio5
+    float horas;
+    printf("Quantas horas se passaram?");
+    scanf("%f", &horas);
+    float segundos = horas*3600;
+    printf("Se passaram: %f", segundos);*/
 
+    /*Exercicio6
+    int p1 = 2, p2 = 1, p3 = 3, p4 = 4;
+    float valor1, valor2, valor3, valor4;
+    printf("Insira quatro valores:\n");
+    scanf("%f", &valor1);
+    scanf("%f", &valor2);
+    scanf("%f", &valor3);
+    scanf("%f", &valor4);
+    float media = (valor1*p1 + valor2*p2 + valor3*p3 + valor4*p4) / (p1 + p2 + p3 + p4);
+    printf("Sua media ponderada e de: %f", media);*/
 
     return 0;
 }
